@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Bebas+Neue&family=Dela+Gothic+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Arizonia&family=Bebas+Neue&family=Dela+Gothic+One&family=Young+Serif&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding: 10px;
+    height: 5vh;
+    margin-bottom: 15px;
+    background-color: #9c9a9acc;
+}
+.navbar .links img{
+    height: 4vh;
+    float: right;
+    border-radius: 17px;
+    opacity: .7;
+    transition: 0.2s;
+    margin: 3px;
+}
+.navbar .links img:hover{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+.navbar .nct{
+    margin-top: 5px;
+    font-family: 'Dela Gothic One', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px #cfc6c6;
+    float: left;
+    font-size: 25px;
+}
+
+.container{
+    margin: 10px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+.container div{
+    padding: 5px;
+    min-height: 40vh;
+}
+.container h5{
+    font-family: 'Dela Gothic One', cursive;
+    color: #020202;
+    text-shadow: 1px 1px #cfc6c6;
+    font-size: large;
+}
+.sidelinks{
+    display: inline-block;
+    background-color: #8f8f8fcc;
+    color: rgb(0, 0, 0);
+    font-size: 5px;
+    border-radius: 15px;
+    width: 10vw;
+    float: left;
+}
+.sidelinks a{
+    border: 1px white;
+    display: block;
+}
+.sidelinks img{
+    
+    opacity: .7;
+    transition: 0.2s;
+    border-radius: 10px;
+    height: 8vh;
+    margin-bottom: 6px;
+}
+.sidelinks img:hover{
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+.main-content{
+    background-color: #000000;
+    display: inline-block;
+     width: 57vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10px;
+   
+    text-align: left;
+}
+.main-content img{
+    float: left;
+    height: 25vw;
+}
+.main-content .FC{
+    color: rgb(172, 164, 164);
+    display: block;
+    text-align: center;
+}
+.main-content h2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 50px;
+     
+}
+.main-content span{
+    font-family: 'Arizonia', cursive;
+    font-size: 55px;
+}
+.main-content p{
+    font-size: 15px;
+}
+.side-content{
+    display: inline-block;
+    width: 20vw;
+    float: right;  
+}
+.side-content img{
+    width: 42.5vh;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    background-color:#7a7a7acc;
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+.footer p{
+    top: 15%;
+    left: 2%;
+    position: relative;
+    text-align: left;
+    font-family: 'Young Serif', serif;
+    color: #000000;
+}
+.footerlinks{
+    display: inline;
+}
+.footerlinks a img{
+    height: 5vh;
+    float: right;
+    border-radius: 17px;
+    margin: 3px;
+}
+
