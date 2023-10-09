@@ -10,7 +10,7 @@
     padding: 10px;
     height: 5vh;
     margin-bottom: 15px;
-    background-color: #9c9a9acc;
+    background-color: #e0dedecc;
 }
 .navbar .links img{
     height: 4vh;
@@ -26,19 +26,31 @@
     transform: scale(1.2);
 }
 .navbar .nct{
-    margin-top: 5px;
+    margin-top: 3px;
+    margin-left: 2.4%;
     font-family: 'Dela Gothic One', cursive;
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px #cfc6c6;
     float: left;
-    font-size: 25px;
+    font-size: 20px;
 }
-
+#navlogo{
+    text-align: left; 
+    position: absolute;
+}
+#navlogo img{
+    border-radius: 50%;
+}
+.b img{
+    margin-left: 45%;
+    position: absolute;
+}
 .container{
     margin: 10px;
     text-align: center;
     padding: 25px;
     margin-top: 50px;
+
 }
 .container div{
     padding: 5px;
@@ -56,7 +68,8 @@
     color: rgb(0, 0, 0);
     font-size: 5px;
     border-radius: 15px;
-    width: 10vw;
+    width: 9vw;
+    height: 15vh;
     float: left;
 }
 .sidelinks a{
@@ -68,8 +81,8 @@
     opacity: .7;
     transition: 0.2s;
     border-radius: 10px;
-    height: 8vh;
-    margin-bottom: 6px;
+    height: 5vh;
+    margin-top: 17px;
 }
 .sidelinks img:hover{
     opacity: 1;
@@ -79,12 +92,11 @@
 .main-content{
     background-color: #000000;
     display: inline-block;
-     width: 57vw;
+    width: 57vw;
     margin-left: 1vw;
     margin-right: 1vw;
     border-radius: 10px;
-   
-    text-align: left;
+    text-align: center;
 }
 .main-content img{
     float: left;
@@ -97,15 +109,17 @@
 }
 .main-content h2{
     font-family: 'Dela Gothic One', cursive;
-    font-size: 50px;
+    font-size: 60px;
      
 }
 .main-content span{
     font-family: 'Arizonia', cursive;
-    font-size: 55px;
+    font-size: 65px;
 }
 .main-content p{
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 .side-content{
     display: inline-block;
@@ -115,30 +129,5 @@
 .side-content img{
     width: 42.5vh;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 98%;
-    background-color:#7a7a7acc;
-    color: white;
-    text-align: right;
-    padding: 20px;
-}
-.footer p{
-    top: 15%;
-    left: 2%;
-    position: relative;
-    text-align: left;
-    font-family: 'Young Serif', serif;
-    color: #000000;
-}
-.footerlinks{
-    display: inline;
-}
-.footerlinks a img{
-    height: 5vh;
-    float: right;
-    border-radius: 17px;
-    margin: 3px;
-}
+
 
